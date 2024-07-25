@@ -1,0 +1,45 @@
+.MainLoginComponent{
+    /* width:100vw; */
+    height: 500px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    font-size: 2rem;
+    text-align: center;
+}
+.mainComponent{
+    width: 500px;
+    height: 300px;
+    border:1px solid blue
+}
+.LoginComponent{
+    display: flex;
+    flex-direction: column;
+    margin-top:2rem;
+    text-align: center;
+}
+
+.userName, .passWord{
+    text-align: left;
+}
+.usernamecompo, .passwordcompo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 1rem; */
+}
+
+.UserNameComponet, .passwordcomponent{
+    width: 70%;
+    padding: 0.3rem;
+}
+
+.passwordcompo{
+    margin-top: 1rem;
+}
+
+

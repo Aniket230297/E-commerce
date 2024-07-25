@@ -1,0 +1,101 @@
+.classContainer{
+    display: flex;
+}
+
+.productName{
+    height: 25px !important;
+    border: 1px solid red;
+}
+
+.productbox{
+    /* border:1px solid red; */
+    padding:1rem;
+}
+.cartcomponent{
+    width:850px;
+    height:200px;
+    display: flex;
+    border:1px solid black;
+    padding: 0.5rem;
+    margin-left: 0.8rem;
+    margin-top: 1rem;
+    box-shadow:1rem 1rem 1rem 1rem rgb(145, 148, 148);
+}
+
+.paybtn{
+    width:100%;
+    height: 2.5rem;
+    background-color: black;
+    color: white;
+}
+
+.maincomponent{
+    display: flex;
+    gap:5rem;
+    flex-wrap: wrap;
+    width:70%;
+    /* border:1px solid red; */
+}
+
+.CardCostComponent{
+    width:25%;
+    border:2px solid black;
+    padding: 1rem;
+    min-height: 400px;
+    
+}
+
+.cartTable, .cartitem{
+    display: flex;
+    /* align-items:flex-start; */
+    /* border: 1px solid green; */
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+.cartTable{  
+    background-color: rgb(140, 237, 183);
+}
+
+.cartitem{
+    background-color: rgb(196, 219, 240);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.cartTable > p{
+    display: flex;
+    width:7rem;
+    /* gap: 10rem; */
+    /* border:1px solid red; */
+}
+
+.carttableDescription{
+    width:15rem !important;
+    /* border: 1px solid red; */
+}
+
+.ItemQuantity{
+    text-align: center;
+    /* border:1px solid red; */
+}
+.cartitem > p{
+    /* display: flex; */
+    width: 7rem;
+    /* align-items: center; */
+}
+
+.cartitemsubtotal{
+    text-align: end;
+    padding: 0.5rem;
+    /* width:10rem; */
+    /* border:1px solid red; */
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+    
+}
+
+.cartitemsubtotal > p{
+    font-weight: bold;
+}
