@@ -1,41 +1,21 @@
-import { Field, Form, Formik, useFormik } from "formik";
-import "./style.css"
-import Button from "../../Coustom/CoustomButton/Button";
-import Password from "antd/es/input/Password";
+import "./style.css";
 
-const Login = ({text})=>{
+const Login = ()=>{
 
-    const formik= useFormik({
-        initialValues : {
-            email:'',
-            Password: '',
-        }
-    })
+    return (
+        <div>
+            <div className="maincomponent">
+                <div className="loginform">
+                    <h1 className="headline">SignUp </h1>
+                    <label>E-mail</label>
+                    <input type="email" placeholder="Please Type E-mail" className="emaillogin"/>
 
-    return(
-        <div className="MainLoginComponent">
-        <div className="mainComponent">
-            <h3>Login</h3>
-            <Formik>
-                <Form>
-                    <div className="LoginComponent">
-                    <div className="usernamecompo">
-                        <label htmlFor="username" className="userName">Username</label>
-                        <Field type="name" id="email" className="UserNameComponet" value={formik.values.email} />
-                    </div>
-                    <div className="passwordcompo">
-                        <label htmlFor="password" className="passWord">Password</label>
-                        <Field type="password" id="password" className="passwordcomponent"/>
-                    </div>
-                        <div>
-                            <Button text="Login" />
-                        </div>
-                    </div>
-                </Form>
+                    <label>Password</label>
+                    <input type="password" placeholder="please type password" className="passwordlogin"/>
 
-            </Formik>
-            
-        </div>
+                    <button className="loginbuttton">SignUp</button>
+                </div>
+            </div>
         </div>
     )
 }

@@ -10,7 +10,7 @@
     justify-content: center;
 }
 
-.loginform {
+.signupform {
     width:400px;
     height: 250px;
     border: 1px solid blue;
@@ -20,10 +20,10 @@
     gap: 0.8rem;
 }
 
-.emaillogin , .passwordlogin{
+.emailsignup , .passwordsignup{
     padding: 0.6rem;
 }
 
-.loginbutton{
+.signupbutton{
     padding: 0.6rem;
 }
