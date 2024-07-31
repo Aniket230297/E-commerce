@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { app } from '../../firebase.js'
 import { toast } from "react-toastify";
@@ -17,7 +18,7 @@ const SignUp = ()=>{
     toast.success('User Created Successfully.');
   })
   .catch((error)=>{
-        alert("user cannot create");
+    toast.error('Something Wrong!.');
   })
     }
 
@@ -44,6 +45,10 @@ const SignUp = ()=>{
                     />
 
                     <button className="signupbutton" onClick={signUpButton}>SignUp</button>
+                    <hr/>
+                    <div className="AccountContainer">
+                    <h5>Already have an account? </h5> <span><Link to="/login">Login</Link></span>
+                    </div>
                 </div>
             </div>
         </div>

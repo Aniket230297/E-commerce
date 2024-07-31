@@ -20,6 +20,10 @@ const Navbar = ({setTextData})=>{
                     </div>
                     
                         <button className="loginbtn">
+                            <Link to="/signup">Signup</Link>
+                        </button>
+
+                        <button className="loginbtn">
                             <Link to="/login">Login</Link>
                         </button>
                     

@@ -4,15 +4,16 @@
 .maincomponent {
     width:99%;
     height:500px;
-    border:1px solid red;
+    /* border:1px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #afb4e0;
 }
 
 .signupform {
     width:400px;
-    height: 250px;
+    height:350px;
     border: 1px solid blue;
     padding: 1rem;
     display: flex;
@@ -26,4 +27,12 @@
 
 .signupbutton{
     padding: 0.6rem;
+}
+
+.AccountContainer{
+    display: flex;
+}
+
+h5{
+    font-size: 1rem;
 }
